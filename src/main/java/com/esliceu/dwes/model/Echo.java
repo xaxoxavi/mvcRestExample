@@ -1,8 +1,11 @@
 package com.esliceu.dwes.model;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * @author Xavi Torrens
  */
+@XmlRootElement(name="Echo")
 public class Echo {
 
     private String text;
