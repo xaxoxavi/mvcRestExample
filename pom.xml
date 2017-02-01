@@ -44,12 +44,6 @@
 			<version>${jackson.version}</version>
 		</dependency>
 
-		<!-- JSTL for views -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>${jstl.version}</version>
-		</dependency>
 
 		<!-- Logging -->
 		<dependency>
@@ -71,6 +65,11 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>${servletapi.version}</version>
 			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>1</version>
 		</dependency>
 
 	</dependencies>

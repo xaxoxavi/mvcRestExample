@@ -9,6 +9,14 @@
 
     <context:component-scan base-package="com.esliceu.dwes" />
 
+    <bean id="userService"
+          class="com.esliceu.dwes.service.UserMockService"/>
+
+    <bean id="userServiceImpl"
+          class="com.esliceu.dwes.service.UserServiceImpl"/>
+
     <mvc:annotation-driven />
+
+
 
 </beans>
